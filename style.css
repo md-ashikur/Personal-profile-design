@@ -113,6 +113,9 @@
 	left: 35px;
 	z-index: 100;
 }
+.side-i{
+	color:slategrey ;
+}
 .side-i:hover{
 	color: #2FB99DFF;
 }
