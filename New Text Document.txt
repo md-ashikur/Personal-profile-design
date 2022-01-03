@@ -1,0 +1,91 @@
+<section class="container clients" id="Client">
+	<p>What clients think about me</p>
+	<h1 class="my-title">Clients Say</h1>
+	<div class="client-slide owl-carousel owl-theme container text-center ">
+    
+
+		        <div class="client-card">
+					<div class="media">
+						<img class="align-self-center mr-3 client-pic" src="pic/man.png" style="width: 80px; height: auto;">
+						<div class="media-body text-left">
+							<span class="si"><i class="fa fa-quote-right" style="color: #1AB394FF;" aria-hidden="true"></i></span>
+							<h5 class="mt-3">John Doe,</h5>
+							<p>CEO Managment</p>
+
+						</div>
+					</div>
+					<p class=" text-left">" In a professional context it often happens that private or corporate clients corder a publication to be made.In a professional context it often happens that private or corporate clients corder a publication to be made. "</p>
+
+
+				</div>
+			
+				<div class="client-card">
+					<div class="media">
+						<img class="align-self-center mr-3 client-pic" src="pic/man-avator.png" style="width: 80px; height: auto;">
+						<div class="media-body text-left">
+							<span class="si"><i class="fa fa-quote-right" style="color: #1AB394FF;" aria-hidden="true"></i></span>
+							<h5 class="mt-3">John Doe,</h5>
+							<p>CEO Managment</p>
+
+						</div>
+					</div>
+					<p class=" text-left">" In a professional context it often happens that private or corporate clients corder a publication to be made.In a professional context it often happens that private or corporate clients corder a publication to be made. "</p>
+
+
+				</div>
+
+				<div class="client-card">
+					<div class="media">
+						<img class="align-self-center mr-3 client-pic" src="pic/woman-avator.png" style="width: 80px; height: auto;">
+						<div class="media-body text-left">
+							<span class="si"><i class="fa fa-quote-right" style="color: #1AB394FF;" aria-hidden="true"></i></span>
+							<h5 class="mt-3">John Doe,</h5>
+							<p>CEO Managment</p>
+
+						</div>
+					</div>
+					<p class=" text-left">" In a professional context it often happens that private or corporate clients corder a publication to be made.In a professional context it often happens that private or corporate clients corder a publication to be made. "</p>
+
+
+				</div>
+				<div class="client-card">
+					<div class="media">
+						<img class="align-self-center mr-3 client-pic" src="pic/woman.png" style="width: 80px; height: auto;">
+						<div class="media-body text-left">
+							<span class="si"><i class="fa fa-quote-right" style="color: #1AB394FF;" aria-hidden="true"></i></span>
+							<h5 class="mt-3">John Doe,</h5>
+							<p>CEO Managment</p>
+
+						</div>
+					</div>
+					<p class=" text-left">" In a professional context it often happens that private or corporate clients corder a publication to be made.In a professional context it often happens that private or corporate clients corder a publication to be made. "</p>
+
+
+				</div>
+				
+			
+		
+    
+</div>
+<script src="owl.carousel.min.js"></script>
+<script>
+  $('.client-slide').owlCarousel({
+    loop:true,
+    margin:10,
+   
+    dotsEach:true,
+    autoplay:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:2
+        }
+    }
+})
+</script>
+</section>

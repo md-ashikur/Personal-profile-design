@@ -1,0 +1,471 @@
+*{
+	margin: 0px;
+	padding:0px;
+
+}
+/*-------fullbody bg color------*/
+.full-bo{
+	background-color: #F1F3F6FF;
+}
+/*==============navbar===========*/
+.navbar{
+	background-color: #F1F3F6FF;
+	padding: 5px 0px;
+	opacity: 0.8;
+	
+}
+.navbar-nav,.navbar-brand{
+	padding: 0px 50px;
+}
+.navbar-toggler:hover{
+	outline: none;
+}
+.navbar-brand{
+	color: #30B99EFF;
+	font-weight: 700;
+}
+.nav-link{
+	color: #43485BFF;
+	font-weight: 500;
+	margin: 0px 10px;
+}
+.nav-link:hover{
+	color: #30B99EFF;
+}
+.active{
+	color: #30B99EFF;
+}
+
+/*================header section===============*/
+.headtext{
+	position: relative;
+	top: 30%;
+}
+.headbtn{
+	padding: 10px 30px;
+	border-radius: 15px;
+	border:none;
+	background-color: #F1F3F6FF;
+	color: #30B99EFF;
+	box-shadow:  3px 3px 3px #dadada, -3px -3px 3px #F8F9F9;
+	transition: 0.5s ease;
+
+}
+.headbtn:hover{
+	outline: none;
+	box-shadow:  3px 3px 3px #dadada inset, 3px 3px 3px #dadada;
+	
+}
+.headpic{
+	position: relative;
+	top: 5%;
+	border-radius: 50%;
+	box-shadow: 3px 3px 3px #dadada, -3px -3px 3px #F8F9F9;
+	width: 100%;
+	height: 50px;
+	
+}
+/*---------------media query for (phone)----------*/
+@media (max-width: 768px){
+	.headpic{
+		
+	    margin-top: 30%;
+	   
+	}
+	.btn1 {
+	font-size: 10px;
+	
+}
+	
+
+}
+/*=================== follow me side bar==================*/
+.sideicon{
+	position: sticky;
+	top: 62%;
+	left: 0;
+	z-index: 100;
+}
+.sidetext{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: rotate(90deg);
+	box-sizing: border-box;
+
+}
+.tt{
+	display: inline-block;
+}
+.sideline{
+	width: 60px;
+	height: 2px;
+	background:#2FB99DFF;
+	position: absolute;
+	top: 100px;
+	left: 12px;
+	transform: rotate(90deg);
+}
+.icon2{
+	position: fixed;
+	top: 84%;
+	left: 35px;
+	z-index: 100;
+}
+.side-i:hover{
+	color: #2FB99DFF;
+}
+/*-================-header circle animation===================-*/
+#loading {
+	-webkit-animation: rotation 20s infinite linear;
+	position:absolute;
+	top:170px; bottom:0; left:0;right:0;
+}
+
+@-webkit-keyframes rotation {
+	from {
+		-webkit-transform: rotate(0deg);
+	}
+	to {
+		-webkit-transform: rotate(359deg);
+	}
+}
+
+.main1{
+	position:absolute;
+	top:0; bottom:0; left:0;right:0;
+	margin:auto;
+	border-radius:50%; 
+}
+/*----------------yellow circle---------------*/
+.circle1{
+	width:50px;
+	height:50px;
+	background:#FADF70FF;
+	border-radius:50%;
+	position:absolute;
+	top:10px; bottom:0; left:-10px;right:0;
+	overflow:hidden;
+	margin:auto;
+	animation: circle 18s linear infinite;
+}
+
+@keyframes circle{
+	0%{
+		transform:rotate(0deg)
+		translate(-220px)
+		rotate(0deg);
+
+	}
+	100%{
+		transform:rotate(-360deg)
+		translate(-220px)
+		rotate(-360deg);
+	}
+}
+/*-------------------red circle-------------*/
+.circle2{
+	width:45px;
+	height:45px;
+	background:#C8365BF5;
+	border-radius:50%;
+	position:absolute;
+	top:60px; bottom:180px; left:40px;right:0;
+	overflow:hidden;
+	margin:auto;
+	animation: circle 15s linear infinite;
+}
+
+
+/*-------------------green circle-------------*/
+.circle3{
+	width:70px;
+	height:70px;
+	background:#2FB99DFF;
+	border-radius:50%;
+	position:absolute;
+	top:200px; bottom:0px; left:40px;right:0;
+	overflow:hidden;
+	margin:auto;
+	animation: circle 20s linear infinite;
+}
+/*==============-header circle animation end=================*/
+
+
+/*=================about me======================*/
+.about{
+	padding: 150px 0px 100px 0px;
+}
+.aboutpic{
+	padding: 3px;
+	width: 100%;
+	height: auto;
+	border-radius: 15px;
+	border:2px solid #fff;
+	box-shadow: 3px 3px 3px #dadada, -3px -3px 3px #F8F9F9;
+}
+.about-t{
+	font-weight: 700;
+	padding: 15px 0px;
+	color: #30B99EFF;
+}
+.about-list{
+	list-style: none;
+	font-weight: 500;
+}
+.list2{
+	font-weight: 400;
+	color: #75737AFF;
+}
+/*------------about button------------*/
+.aboutbtn{
+	padding: 10px 30px;
+	border-radius: 15px;
+	border:none;
+	background-color: #F1F3F6FF;
+	color: #30B99EFF;
+	box-shadow:  3px 3px 3px #dadada, -3px -3px 3px #fafafa ;
+	transition: 0.5s ease;
+	margin: 20px 20px 0px 0px;
+
+}
+.aboutbtn:hover{
+	outline: none;
+
+	box-shadow:  3px 3px 3px #dadada inset, 3px 3px 3px #dadada;
+
+}
+/*==================my skills==================*/
+.my-title{
+	font-weight: 700;
+	color: #30B99EFF;
+}
+.progress{
+	
+	box-shadow:  3px 3px 3px #dadada inset, -3px -3px 3px #F8F9F9 inset;
+
+}
+.progress-text{
+	margin-top:30px; 
+
+}
+
+
+/*=======================My services =======================*/
+.service{
+	padding: 100px 0px;
+}
+.service-card{
+	
+	border-radius: 15px;
+	color: #fff;
+	padding: 20px;
+}
+.sew:hover .se-pic{
+	transform: rotateY(360deg);
+	
+	transition: 0.8s ease;
+}
+/*====================my portfolio=====================*/
+.overlay {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #008CBA;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	-webkit-transform: scale(0);
+	-ms-transform: scale(0);
+	transform: scale(0);
+	-webkit-transition: .3s ease;
+	transition: .3s ease;
+}
+
+.container:hover .overlay {
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+}
+#Portfolio{
+	padding: 50px 0px;
+}
+.main {
+	max-width: 100%;
+	margin: auto;
+}
+
+
+.row {
+	margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+	padding: 8px;
+}
+
+
+.column {
+	float: left;
+	width: 33.33%;
+	display: none; 
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+.content {
+	background-color: white;
+	padding: 10px;
+}
+
+.content{
+	border:4px solid #F1F3F6FF;
+	box-shadow:  3px 3px 3px #dadada, -3px -3px 3px #fafafa ;
+	border-radius: 15px;
+}
+.show {
+	display: block;
+}
+
+.btn1 {
+	padding: 10px 30px;
+	border-radius: 40px;
+	border:none;
+	background-color: #F1F3F6FF;
+	color: #30B99EFF;
+	box-shadow:  3px 3px 3px #dadada, -3px -3px 3px #fafafa ;
+	margin: 20px 20px 0px 0px;
+	
+}
+
+.btn1:hover {
+	outline: none;
+	box-shadow:  3px 3px 3px #dadada inset, 3px 3px 3px #dadada;
+}
+
+.btn1.active {
+	padding: 10px 30px;
+	border-radius: 40px;
+	border:none;
+	background-color: #F1F3F6FF;
+	color: #30B99EFF;
+	box-shadow:  3px 3px 3px #dadada, -3px -3px 3px #fafafa ;
+	transition: 0.5s ease;
+	margin: 20px 20px 0px 0px;
+	outline: none;
+
+}
+.btn1.active:hover{
+	outline: none;
+	box-shadow:  3px 3px 3px #dadada inset, 3px 3px 3px #dadada;
+}
+/*======================clients say======================*/
+
+.clients{
+	padding: 50px 0px;
+}
+.client-card{
+	padding: 10px 20px;
+	margin: 30px 20px 10px 0px;
+	box-shadow:   -3px -3px 3px #F8F9F9 , 3px 3px 3px #dadada ;
+	border-radius: 15px;
+	color: #333;
+}
+.client-pic{
+	border-radius: 50%;
+	border:4px solid #fff;
+	background-color: #F1F3F6FF;
+	box-shadow:  3px 3px 3px #dadada, -3px -3px 3px #fafafa ;
+}
+.si{
+	font-size: 30px;
+	position: absolute;
+	top: 60px;
+	right: 60px;
+
+}
+/*=====================Latest blog START======================*/
+.blog{
+	padding: 50px 0px;
+}
+.blog-card{
+	border-radius: 15px;
+	box-shadow:   -3px -3px 3px #F8F9F9 , 3px 3px 3px #dadada ;
+	margin: 30px 10px 10px 0px;
+	color: #3E4754FF;
+}
+.blog-card-text{
+	padding: 20px 20px;
+}
+.blog-t2{
+	color: #9BA2A7FF;
+}
+/*========================Get in touch START=========================*/
+.map{
+	margin: 50px 0px;
+}
+#Contact{
+	padding-top: 50px ;
+}
+/*============================Contact form START==========================*/
+.input-s{
+	width: 40vw;
+	height: 40px;
+	border-radius: 40px;
+	box-shadow:  3px 3px 3px #dadada inset, -3px -3px 3px #F8F9F9 inset;
+	border:none;
+	outline: none;
+	padding: 0px 20px;
+	color: #30B99EFF;
+	background-color: #F1F3F6FF;
+}
+
+.input-s1{
+	width: 100%;
+	height: 40px;
+	border-radius: 40px;
+	margin: 10px 0px;
+	box-shadow:  3px 3px 3px #dadada inset, -3px -3px 3px #F8F9F9 inset;
+	border:none;
+	outline: none;
+	padding: 0px 20px;
+	color: #30B99EFF;
+	background-color: #F1F3F6FF;
+
+}
+
+.input-s2{
+	width: 100%;
+	height: 20vh;
+	border-radius: 15px;
+	margin: 10px 0px;
+	box-shadow:  3px 3px 3px #dadada inset, -3px -3px 3px #F8F9F9 inset;
+	border:none;
+	outline: none;
+	padding: 10px 20px;
+	color: #30B99EFF;
+	background-color: #F1F3F6FF;
+
+}
+
+
+
+.footer{
+	margin: 50px 0px 0px 0px;
+}
+
+
+
+
+
+
+
+
